@@ -78,7 +78,9 @@
 .features {
     margin-top: 117px;
 }
-
+.rating {
+    display: flex;
+}
 
 .image-rating img {
     width: 35%;
@@ -91,14 +93,14 @@
     padding: 17px;
 }
 input {
-    border-radius: 17px;
-    font-size: 18px;
+    border-radius: 22px;
+    font-size: 21px;
     border: none;
     margin-bottom: 18px;
     margin-top: 24px;
     width: 100%;
-    padding: 16px 30px;
-    background-color: #efefef;
+    padding: 8px;
+    background-color: #e5e2e2;
 }
 select.link-select {
     border: none;
@@ -202,13 +204,13 @@ select.link-select {
     position: absolute;
     bottom: 150px;
 }
-
-
-
+.notification{
+    background-image: url(https://cdn.ecomv2.yougotagift.com/images/news-subscription-background.png);
+}
 .notification {
     background-image: url(https://cdn.ecomv2.yougotagift.com/images/news-subscription-background.png);
     background-size: cover;
-    height: 220px;
+    height: 219px;
     margin: 31px;
 }
 .text-brand {
@@ -233,16 +235,14 @@ select.link-select {
     color: #7e7c7c;
     font-size: 18px;
 }
-
-.text-submit h4 {
+.submit-data h4 {
     border-radius: 11px;
     padding: 12px 31px;
     background-color: #cbc7c7;
-
 }
 .footer-img img {
     margin-left: 6px;
-    width: 18%;
+    width: 12%;
 }
 .footer-image1 img {
     margin-top: 26px;
@@ -251,129 +251,19 @@ select.link-select {
 .container-fluid-newbrands {
     background-color: #d7d7d7;
 }
-
 .home-text img {
     margin-top: 11px;
     width: 30%;
     display: flex;
-    margin-left: 43px;
-}
-.card-system input {
-    width: 50%;
-}
-.card-system h2 {
-    padding: 13px;
-    font-size: 17px;
-    width: 14%;
-    border: 1px solid purple;
-    color: purple;
-    border-radius: 12px;
-}
-.homepage {
-    margin: 32px;
-}
-.box1 p {
-    color: gray;
-    font-family: sans-serif;
-    font-size: 16px;
-}
-.box1 h2 {
-    font-weight: 600;
-    font-size: 24px;
-    font-family: sans-serif;
-}
-.digital-card p {
-    color: #580258;
-    font-family: sans-serif;
-    font-size: 19px;
 }
 
-.digital-card h2 {
-    font-family: sans-serif;
-    color: purple;
-}
-ul.list1 li {
-    font-size: 16px;
-    margin-top: 9px;
-    color: #686868;
-    list-style-type: none;
-    text-decoration: none;
-}
 
-.home-text h3 {
-    margin-bottom: 21px;
-    margin-left: 39px;
-    font-size: 20px;
-}
-.reviews {
-    margin-left: -94px;
-}
-.rating {
-    margin-left: 53px;
-    display: flex;
-    align-items: center;
-}
-.image-rating {
-    width: 45%;
-}
-.box1 h3 {
-    font-weight: 500;
-    color: gray;
-    font-family: sans-serif;
-    font-size: 16px;
-}
-.box1 h4 {
-    font-weight: 500;
-    font-family: sans-serif;
-    font-size: 17px;
-    color: #4545f9;
-}
-.footer-image1 img {
-    width: 30%;
-}
-.container-fluid-footer {
-    margin: 30px;
-}
+
+
+
+
 
 @media (max-width:600px){
-    .home-text img {
-       
-        width: 100%;
-        display: initial;
-        margin-left: 0px;
-    }
-    .rating {
-        margin-left: 0px;
-      
-    }
-    .reviews {
-        margin-left: 0px;
-    }
-    .home-text img {
-        margin-left: 0px;
-    }
-
-.home-text h3 {
-    margin-left: 0px;
-}
- 
-    .notification {
-        height: 100%;
-    }
-    .text-brand h2 {
-        font-size: 20px;
-    }
-    .submit-data {
-        display: initial;
-
-    }
-    .card-system h2 {
-        width: 100%;
-       
-    }
-    .card-system input {
-        width: 100%;
-    }
     
     .store-system h3 {
         margin-left: 0px;
@@ -407,19 +297,23 @@ ul.list1 li {
     .image1 img {
         width: 100%;
         position: initial;
+     
+    
     }
     .box1 {
         width: 100%;
-        height: 100%;
+       
     }
-
-.image2 img {
-    left: 53px;
-    position: absolute;
-    bottom: 150px;
-}
-    
-   
+    .image2 img {
+        left: 120px;
+        position: absolute;
+        bottom: 150px;
+    }
+    .notification {
+        background-image: url(https://cdn.ecomv2.yougotagift.com/images/news-subscription-background.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
     
 
 }
